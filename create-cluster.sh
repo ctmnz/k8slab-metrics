@@ -28,6 +28,6 @@ kubectl apply -f ./prometheus.yaml
 # Installing Grafana http://grafana.127.0.0.1.nip.io
 kubectl apply -f ./grafana.yaml
 
-# Installing the argocd rollouts demo app
+# Installing the argocd rollouts demo app http://demoapp.127.0.0.1.nip.io
 kubectl apply -f ./demoapp.yaml
 
